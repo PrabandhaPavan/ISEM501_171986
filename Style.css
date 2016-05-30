@@ -1,0 +1,44 @@
+<style>
+ body {background-color:lightgrey}
+  h1   {color:blue}
+  p    {color:black}
+  padding:5px;
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+body {background-color:#DAE0DA;}
+h1   {color:Black;}
+p    {color:Black;}
+padding:2px;
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    float: left;
+    width: 9em;
+    text-decoration: none;
+    color: black;
+    background-color: #F7311B;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+a:hover {
+    background-color: #52F71B;
+}
+
+li {
+    display: inline;
+}
+

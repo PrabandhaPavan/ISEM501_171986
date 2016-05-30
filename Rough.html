@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Life Style</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function display() {
+            var z = prompt("enter your name...");
+            if(z != null) {
+                document.getElementById("demo").innerHTML =  z + "<br/> Thank You";
+                document.getElementById("case").style.visibility = 'visible';
+            } else {
+                document.getElementById("demo").innerHTML = "thankyou";
+            }
+        }
+        </script>     
+
+
+
+<script>
+    function toggleTable(hide)
+    {
+    if (hide) {
+       document.getElementById("loginTable").style.display="table";
+       document.getElementById("loginLink").onclick = toggleTable(false);
+
+    } else {
+       document.getElementById("loginTable").style.display="none";
+       document.getElementById("loginLink").onclick = toggleTable(true);
+    }
+   }
+   </script>
+
+     <img src="Car2.jpg" >
+     </br>
+      <ul>
+       <li><a href="Default.html">Home</a></li>
+       <li><a href="Spiritual.html">Spiritual</a></li>
+       <li><a href="HealthyFood.html">Healthy Food</a></li>
+       <li><a href="Workout.html">Workout</a></li>
+       <li><a href="Travel.html">Travel</a></li>
+       <li><a href="Housing.html">Housing</a></li>
+       <li><a href="Sports.html">Sports</a></li>
+       
+     </ul>
+
+     </br>
+     <h3 align="left">Home</h3>
+
+    <div>
+     <tr>
+      <td>
+       <div>
+         <h4>About Us</h4>   
+     </div>
+    </td>
+    <td>
+      <div>
+        
+         
+            Welcome to the world of amazing lifestyle. Its been mans effort to live a 
+            good life from ages and he has been improving it for the good. This website 
+            gives you an overview of the esential elements to live life to the fullest.
+            Food, fitness, travel,housing and Sports contribute to a better life. Explore 
+            the tabs to see how to improve these sections.
+          
+     
+
+
+
+<p id="demo">
+            click on the button.....
+        </p>
+           <button type="button" onclick="display()">FEEDBACK</button>
+        <form>
+            <input type="text" id="case" name="myText" style="display:none">
+        </form>
+
+
+    
+     </div>
+   </td>
+   </tr>
+</div>
+</body>
+</head>
+</html>
